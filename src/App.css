@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    @apply m-0 text-2xl text-slate-200 font-bold py-3 md:text-3xl lg:text-4xl capitalize
+  }
+}
